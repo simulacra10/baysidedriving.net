@@ -1,0 +1,272 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:95%;
+	color:#102751;
+	background:URL(../images/page_bg.jpg) repeat-x #EEF2F4 fixed;
+	margin:0px;
+	padding:0px;
+}
+
+.sup{
+	padding:0px;
+	vertical-align:top;
+	font-size:9px;
+}
+
+#page{
+	position:absolute;
+	left:50%;
+	margin-top:5px;
+	margin-left:-384px;
+	padding: 0px;
+	width: 768px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:.9em;
+	background-image: url(http://www.baysidedriving.net/images/page-bg.jpg);
+	background-repeat: repeat-y;
+	background-position: left top;
+	
+}
+
+
+
+
+#header {
+	width: 768px;
+	height:161px;
+	margin: 0px 0px 0px 0px;
+	padding: 0px;
+	background-image: url(http://www.baysidedriving.net/images/header.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+		
+}
+
+#footer{
+	width: 768px;
+	height:34px;
+	font-size:9px;
+	text-align:center;
+	color:#B5B3AB;
+	margin: 0px 0px 0px 0px;
+	padding: 15px 0px 2px 0px;	
+}
+
+.footer_txt {
+	margin: 0px 0px 0px 0px;
+	padding: 25px 0px 25px 0px;
+}
+
+#footer a{
+	font-size:9px;
+	color:#B5B3AB;
+}
+
+#navbar, #main, #height_fix{
+	float: left;
+}
+
+#navbar{
+	position:relative;
+	left:3px;
+	width: 173px;
+	height: 370px;
+	margin: 0px 0px 0px -3px;
+	color:#fff;
+	padding: 3px 0px 0px 0px;
+}
+
+#navbar a{
+	color:#000000;
+	text-decoration:none;
+	text-transform:uppercase;
+	font-size:10px;
+}
+
+#navbar a:hover{
+	text-decoration:underline;
+}
+
+.navUL {
+	margin:0px 0px 0px 0px;
+	padding:0px;
+}
+
+.navUL li{
+	list-style-type: none;	
+	margin: -3px 0px -3px 0px;
+	padding: 0px;
+}
+
+#main{	
+	margin: 0px 0px 0px 2px;
+	padding: 0px;
+	width: 588px;
+}
+
+#mainTxt{
+	color:#102751;
+	width:630px;
+	margin:25px 0px 0px 30px;
+	text-align:left;
+	font-size:0.9em;
+}
+
+#mainTxt h3{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	padding: 0px;
+	margin: 2px 4px 2px 2px;
+}
+
+#mainText li{
+	color:#102751;
+}
+
+.class_txt{
+	padding-right:15px;
+	color:#043F85;	
+	font-size:0.9em;
+}
+
+.class_txt a{
+	color:#043F85;	
+}
+
+#height_fix{
+	width:1px;
+	height:435px;
+}
+
+#sectionTitle{
+	width:596px;
+	height:44px;
+	text-align: right;
+	background-image:url(http://www.baysidedriving.net/images/title-left.jpg);
+	background-repeat:no-repeat;
+	background-position:left top;
+}
+
+.btnspacer{
+	margin: -14px 0px 0px 0px;
+	padding: 0px;
+}
+
+#nextNback {
+	font-size:10px;
+}
+
+#nextNback a{
+	color:#102751;
+}
+
+/************ page styles **********/
+a {
+	color:#102751;
+}
+
+.noline{
+	text-decoration:none;
+}
+
+.em{
+	text-decoration:line-through;
+}
+/************ other styles **********/
+.tiny{font-size:9px}
+
+.tdInv{
+	background-color:#eeeeee;
+	padding: 2px;
+}
+
+.menu{
+	margin: 0 0 0 150px;
+}
+
+.tblBorder{
+border: 1px solid #001A55;
+margin: 0 0 10px 0;
+}
+
+.title {font-size: 17pt;
+		font-weight: bold;
+	}
+
+.midtitle {font-size: 14pt;
+		font-weight: bold;
+	}
+
+.smltitle {font-size: 12pt;
+		font-weight: bold;		
+	}
+
+.minititle {font-size: .9em;
+		font-weight: bold;		
+	}
+
+a.linktitle:link, a.linktitle:visited, a.linktitle:hover, a.linktitle:active{
+		font-size: .9em;
+		font-weight: bold;		
+	}
+	
+a.linktitle:hover{
+		text-decoration:none;
+	}
+	
+ul.nobullets{
+list-style-type:none;
+}
+
+.formBorder{
+	background-color:#FFF;
+	border:1px solid #001A55;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:.9em;
+	color:#001A55;
+}
+.formBorderFake{
+	height:20px;
+	margin-top:1px;
+	padding: 1px 8px 1px 8px;
+	background-color:#FFF;
+	border:1px solid #001A55;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:.9em;
+	color:#001A55;
+	text-decoration:none;
+}
+.formBtn{
+	background-color:#FFF;
+	border:1px solid #001A55;
+	text-transform:uppercase;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:.9em;
+	color:#001A55;
+}
+/************ Error Styles **********/
+#errTitle{
+	font-size:20px;
+	font-weight:bold;
+	margin: 0 10px 0 0;
+	padding: 0 0 0 0px;
+}
+
+.errSmall{font-size:8pt}
+
+#errFooter{
+	margin: 0;
+	font-size:9px;
+	color:#CCCCCC;
+}
+
+#errBlock{
+	margin: 0 auto;
+	width: 350px;
+	font-family: courier;
+	font-size:12px;
+	color: #003366;
+	border:1px solid #003366;
+	background-color:#FFFFFF;
+}
+/************ END Error Styles **********/
