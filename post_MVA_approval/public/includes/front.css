@@ -28,11 +28,10 @@ body {
 	
 }
 
-#header, #footer{
-	clear:both;
-}
 
-#header{
+
+
+#header {
 	width: 768px;
 	height:161px;
 	margin: 0px 0px 0px 0px;
