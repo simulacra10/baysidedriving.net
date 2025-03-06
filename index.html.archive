@@ -71,7 +71,7 @@ $('a[rel*="lightbox"]').lightBox();
 <a href="index.cfm%3Fref=10100.html" title="Home" onMouseOver="window.status='Home'; loadimage('btnhome', 'images/btn-home-dwn.jpg'); return true" onMouseOut="window.status=''; loadimage('btnhome', 'images/btn-home.jpg'); return true"><img name="btnhome" src="images/btn-home.jpg" width="225" height="23" border="0" /></a><br />
 <a href="index.cfm%3Fref=20100.html" title="Driver&prime;s Education" onMouseOver="window.status='Driver&prime;s Education'; loadimage('btndriversed', 'images/btn-driversed-dwn.jpg'); return true" onMouseOut="window.status=''; loadimage('btndriversed', 'images/btn-driversed.jpg'); return true"><img name="btndriversed" src="images/btn-driversed.jpg" width="225" height="25" border="0" /></a><Br />
 <a href="index.cfm%3Fref=68100.html" title="Alcohol Education Program" onMouseOver="window.status='Alcohol Education Program'; loadimage('btnalcoholed', 'images/btn-fees-dwn.jpg'); return true" onMouseOut="window.status=''; loadimage('btnalcoholed', 'images/btn-fees.jpg'); return true"><img name="btnalcoholed" src="images/btn-fees.jpg" width="225" height="25" border="0" /></a><br />
- <a href="index.cfm%3Fref=40100.html" title="Driver Improvement" onMouseOver="window.status='Driver Improvement'; loadimage('btnimprovement', 'images/btn-improvement-dwn.jpg'); return true" onMouseOut="window.status=''; loadimage('btnimprovement', 'images/btn-improvement.jpg'); return true"><img name="btnimprovement" src="images/btn-improvement.jpg" width="225" height="25" border="0" /></a><br /> 
+<!-- <a href="index.cfm%3Fref=40100.html" title="Driver Improvement" onMouseOver="window.status='Driver Improvement'; loadimage('btnimprovement', 'images/btn-improvement-dwn.jpg'); return true" onMouseOut="window.status=''; loadimage('btnimprovement', 'images/btn-improvement.jpg'); return true"><img name="btnimprovement" src="images/btn-improvement.jpg" width="225" height="25" border="0" /></a><br /> -->
 <a href="index.cfm%3Fref=50100.html" title="Forms" onMouseOver="window.status='Forms'; loadimage('btnforms', 'images/btn-forms-dwn.jpg'); return true" onMouseOut="window.status=''; loadimage('btnforms', 'images/btn-forms.jpg'); return true"><img name="btnforms" src="images/btn-forms.jpg" width="225" height="25" border="0" /></a><br />
 <a href="index.cfm%3Fref=90100.html" title="Contact Us" onMouseOver="window.status='Contact Us'; loadimage('btncontact', 'images/btn-contact-dwn.jpg'); return true" onMouseOut="window.status=''; loadimage('btncontact', 'images/btn-contact.jpg'); return true"><img name="btncontact" src="images/btn-contact.jpg" width="225" height="25" border="0" /></a><Br />
 <a href="index.cfm%3Fref=60100.html" title="Frequently Asked Questions" onMouseOver="window.status='Frequently Asked Questions'; loadimage('btnfaq', 'images/btn-faq-dwn.jpg'); return true" onMouseOut="window.status=''; loadimage('btnfaq', 'images/btn-faq.jpg'); return true"><img name="btnfaq" src="images/btn-faq.jpg" width="225" height="25" border="0" /></a><br />
@@ -99,18 +99,28 @@ $('a[rel*="lightbox"]').lightBox();
 <div style="text-align: center">
 <h1><span style="font-size: 12px;">&nbsp;</span></h1>
 <div>
-
-<h1>Bayside Driving School has been purchased by Bay Country Driving School</h1>
-
-<h2>Honoring the Legacy, Continuing the Tradition</h2>
-
-<p>At Bay Country Driving School, we are proud to carry forward the exceptional legacy of Bayside Driving School, a name that has been synonymous with quality driver education in Talbot County since 1982. Founded by Jack & Beth Morris, and later nurtured by Robin and Zoe Keeter, Bayside Driving School built a reputation for excellence, shaping safe and confident drivers for generations.</p>
-
-<p>As the Keeters step into retirement, we want to assure our students, families, and community that Bay Country Driving School remains committed to the same high standards of education and training that you have come to expect. The same dedicated instructors who have helped thousands of students earn their licenses will continue teaching with us, ensuring a seamless transition and continued success.
+<div>&nbsp;</div>
+<div>&nbsp;</div>
+<h1>&nbsp;OFFICE HOURS</h1>
+<h1>Wednesdays 9:00a-6:00p</h1>
+<div>&nbsp;</div>
+<!-- <h2>OFFICE and DRIVING RANGE WILL BE</h2>
+<h2>CLOSED - NOVEMBER 4-11,2024</h2> -->
+<h2>ALL CLASSES ARE FULL AND AFTER 43 YEARS IN BUSINESS WE WILL BE RETIRING IN FEBRUARY OF 2025.</h2>
 <div>&nbsp;</div>
 </div>
-
+<div>&nbsp;</div>
+<div>&nbsp;</div>
+<div>&nbsp;</div>
 <h2>2024 marks our 42<sup>nd</sup>&nbsp; year in business&nbsp;</h2>
+<div>&nbsp;</div>
+<div>&nbsp;</div>
+<h1>&nbsp;</h1>
+<div>&nbsp;</div>
+<h3>&nbsp;</h3>
+<div>&nbsp;</div>
+<div>&nbsp;</div>
+<h2>&nbsp;</h2>
 <h5>
 <div style="text-align: center">
 <h5>
