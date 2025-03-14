@@ -1,159 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
 
-
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
 <head>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-Z53FVHK897"></script>
-<script>
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-gtag('config', 'G-Z53FVHK897');
-</script>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-<meta name="author" content="Delmarva Digital">
-<meta name="keywords" content="keywords here">
-<meta name="description" content="description here">
-<script language="JavaScript">
-function loadimage(imageName, imageLocation) {
-if (document.images) document.images[imageName].src = imageLocation;
-return true;
-}
-function preloadImages() {
-if (document.images) {
-var imgFiles = preloadImages.arguments;
-var preloadArray = new Array();
-for (var i=0; i<imgFiles.length; i++) {
-preloadArray[i] = new Image;
-preloadArray[i].src = imgFiles[i];
-}
-}
-}
-preloadImages('images/btn-home-dwn.jpg',
-'images/btn-driversed-dwn.jpg',
-'images/btn-fees-dwn.jpg',
-'images/btn-improvement-dwn.jpg',
-'images/btn-forms-dwn.jpg',
-'images/btn-contact-dwn.jpg',
-'images/btn-faq-dwn.jpg',
-'images/btn-policies-dwn.jpg',
-'images/btn-about-dwn.jpg'
-);
-</script>
-<link rel="stylesheet" type="text/css" href="includes/front.css">
-<link rel="stylesheet" type="text/css" href="includes/jquery/css/datepicker.css">
-<link type="text/css" href="includes/jquery/css/ui-lightness/jquery-ui-1.8.6.custom.css" rel="stylesheet" />
-<script type="text/javascript" src="includes/jquery/js/jquery-1.4.2.min.js"></script>
-<script type="text/javascript" src="includes/jquery/js/jquery-ui-1.8.6.custom.min.js"></script>
-<script type="text/javascript" src="includes/jquery/js/jquery.bgiframe.js"></script>
-<script type="text/javascript" src="includes/jquery/js/jquery.cycle.lite.1.0.min.js"></script>
-<script type="text/javascript" src="includes/jquery/js/jquery.lightbox-0.5.js"></script>
-<script type="text/javascript">
-$(function()
-{
-function onAfter(e) {
-$('#picTitle').html(this.title);
-};
-$(window).load(function () {
-$('#s1').cycle({after:onAfter,delay:0,speed:4000,timeout:4000});
-});
-$('a[rel*="lightbox"]').lightBox();
-});
-</script>
-<title>Bayside - Home - BCDS</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baysid Driving School</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            min-height: 100vh;
+            background-image: url("images/page_bg.jpg") ;
+            font-family: "PT Sans", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        #banner {
+            width: 600px;
+            height: 205px;
+            background-image: url("images/home_banner.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain; 
+            margin-bottom: 20px; 
+            margin-top: 20px;
+        } 
+        #BCDSHeader {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #400b65;
+            padding: 10px;
+            color: #fb7e29;
+            position: fixed;
+            top: -40;
+            width: 100%;
+            z-index: 100;
+        }
+
+        #BCDSHeader img {
+            margin-right: 20px;
+            /* Adds some spacing between the image and the text */
+        }
+
+        #BCDSHeader h2 {
+            margin: 0;
+            font-size: 1.5em;
+            color: #fb7e29;
+            text-align: center;
+            flex: 1;
+            /* This makes the text take up the remaining space */
+        }
+
+        #BCDSHeader a {
+            color: #f6edfd;
+            text-decoration: none;
+        }
+
+        #BCDSHeader a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            padding: 100px;
+            display: grid;
+            grid-template-columns: 100px auto 100px;
+            grid-template-rows: auto;
+            justify-items: center; /* Centers content within the grid cells */
+            text-align: center;
+            
+        }
+        p {
+            padding: 0.5rem;
+        }
+        .box {
+         padding: 0.5rem;   
+        }
+
+        footer {
+            margin-top: auto;
+            text-align: center;
+        }
+
+        @media only screen and (max-width: 600px) {
+                 #banner {
+                        background-image: none;
+                        }
+        }
+        .text-part-right {
+            display: inline-block;
+            margin: 0 0.5rem;
+            animation: fadeInRight ; /* referring directly to the animation's @keyframe declaration */
+            animation-duration: 3s; /* don't forget to set a duration! */
+            color:#fb7e29
+        }
+        .text-part-left {
+            color: #400b65;
+        }
+        
+        a:link, a:visited {
+            color: #fb7e29;
+            text-decoration: none;
+            display: inline-block;
+        }
+       
+
+    </style>
 </head>
+
 <body>
-<table width="906" cellpadding="0" cellspacing="0" align="center" border="0" style="background:URL(images/page_bg_rpt.jpg) repeat-y left top;">
-<tr>
-<td valign="top" width="225">
-<img src="images/btn-top.jpg" width="225" height="185" border="0" /><br />
-<a href="index.cfm%3Fref=10100.html" title="Home" onMouseOver="window.status='Home'; loadimage('btnhome', 'images/btn-home-dwn.jpg'); return true" onMouseOut="window.status=''; loadimage('btnhome', 'images/btn-home.jpg'); return true"><img name="btnhome" src="images/btn-home.jpg" width="225" height="23" border="0" /></a><br />
-<a href="index.cfm%3Fref=20100.html" title="Driver&prime;s Education" onMouseOver="window.status='Driver&prime;s Education'; loadimage('btndriversed', 'images/btn-driversed-dwn.jpg'); return true" onMouseOut="window.status=''; loadimage('btndriversed', 'images/btn-driversed.jpg'); return true"><img name="btndriversed" src="images/btn-driversed.jpg" width="225" height="25" border="0" /></a><Br />
-<a href="index.cfm%3Fref=68100.html" title="Alcohol Education Program" onMouseOver="window.status='Alcohol Education Program'; loadimage('btnalcoholed', 'images/btn-fees-dwn.jpg'); return true" onMouseOut="window.status=''; loadimage('btnalcoholed', 'images/btn-fees.jpg'); return true"><img name="btnalcoholed" src="images/btn-fees.jpg" width="225" height="25" border="0" /></a><br />
- <a href="index.cfm%3Fref=40100.html" title="Driver Improvement" onMouseOver="window.status='Driver Improvement'; loadimage('btnimprovement', 'images/btn-improvement-dwn.jpg'); return true" onMouseOut="window.status=''; loadimage('btnimprovement', 'images/btn-improvement.jpg'); return true"><img name="btnimprovement" src="images/btn-improvement.jpg" width="225" height="25" border="0" /></a><br /> 
-<a href="index.cfm%3Fref=50100.html" title="Forms" onMouseOver="window.status='Forms'; loadimage('btnforms', 'images/btn-forms-dwn.jpg'); return true" onMouseOut="window.status=''; loadimage('btnforms', 'images/btn-forms.jpg'); return true"><img name="btnforms" src="images/btn-forms.jpg" width="225" height="25" border="0" /></a><br />
-<a href="index.cfm%3Fref=90100.html" title="Contact Us" onMouseOver="window.status='Contact Us'; loadimage('btncontact', 'images/btn-contact-dwn.jpg'); return true" onMouseOut="window.status=''; loadimage('btncontact', 'images/btn-contact.jpg'); return true"><img name="btncontact" src="images/btn-contact.jpg" width="225" height="25" border="0" /></a><Br />
-<a href="index.cfm%3Fref=60100.html" title="Frequently Asked Questions" onMouseOver="window.status='Frequently Asked Questions'; loadimage('btnfaq', 'images/btn-faq-dwn.jpg'); return true" onMouseOut="window.status=''; loadimage('btnfaq', 'images/btn-faq.jpg'); return true"><img name="btnfaq" src="images/btn-faq.jpg" width="225" height="25" border="0" /></a><br />
-<a href="index.cfm%3Fref=70100.html" title="Policies" onMouseOver="window.status='Policies'; loadimage('btnpolicies', 'images/btn-policies-dwn.jpg'); return true" onMouseOut="window.status=''; loadimage('btnpolicies', 'images/btn-policies.jpg'); return true"><img name="btnpolicies" src="images/btn-policies.jpg" width="225" height="25" border="0" /></a><br />
-<a href="index.cfm%3Fref=80100.html" title="Coupon" onMouseOver="window.status='Coupon'; loadimage('btncoupon', 'images/btn-coupon-dwn.jpg'); return true" onMouseOut="window.status=''; loadimage('btncoupon', 'images/btn-coupon.jpg'); return true"><img name="btncoupon" src="images/btn-coupon.jpg" width="225" height="25" border="0" /></a><br />
-<img src="images/btn-bar-btm.jpg" width="225" height="209" />
-</td>
-<td valign="top" width="681" style="background:URL(images/txt_bg.jpg) no-repeat left top;">
-<div id="mainTxt">
-<center><img src="images/home_banner.jpg" width="599" height="203" /></center>
-<br /><br />
-<table width="630" cellpadding="0" cellspacing="0" align="center" border="0">
-<tr>
-<td class="class_txt" valign="top" width="215" align="right">
-<center><img src="images/class_schedule.png" width="119" height="17" /></center>
-<br><br />
-<center style="margin:0px 0px 8px 0px;">
-<img src="images/ta_county.png" width="98" height="12" />
-</center>
-<a href="index.cfm%3Fref=20200&amp;ref2=14.html"><B>CLICK HERE for MVA Approved Driver's Education- 2024 schedule</b></a><br />
-<div>Classroom location: 8673 Commerce Dr. #11 Easton, Md 21601 First left off of Glebe Road. Dates <a href="index.cfm%3Fref=20200&amp;ref2=14.html">more</a>...
-<br /><br />
-</td>
-<td valign="top" width="400">
-<div style="text-align: center">
-<h1><span style="font-size: 12px;">&nbsp;</span></h1>
-<div>
+    <header>
+        <div id="BCDSHeader">
+            <img src="images/Bay-Country-DS.png" width="100" alt="Bay Country Driving School Logo" />
+            <h2>Bayside Driving School is now <a href="https://www.baycountrydrivingschool.com">Bay Country Driving School</a></h2>
+        </div>
+    </header>
+    <main class="container">
+        <div class="box"></div>
+        <div id="banner" class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box">
+            <div class="split-text-container"><h1><span class="text-part-left">Bayside Driving School is Now</span> <span class="text-part-right animate__fadeInRight "><a id="slide" href="https://www.baycountrydrivingschool.com">Bay Country Driving School</a></span></h1></div>
+        
+            <h2>Honoring the Legacy, Driving Toward the Future</h2>
+        
+            <p>We are excited to announce that <a href="https://www.baycountrydrivingschool.com">Bay Country Driving School</a> has officially acquired Bayside Driving School. Since 1982, Bayside Driving School has been a trusted name in driver education across Talbot County, and we at <a href="https://www.baycountrydrivingschool.com">Bay Country Driving School</a> are honored to continue its legacy.</p>
+        
+            <p>Founded by Jack & Beth Morris and later guided by Robin and Zoe Keeter, Bayside Driving School has shaped generations of safe, responsible drivers. Now, under the leadership of <a href="https://www.baycountrydrivingschool.com">Bay Country Driving School</a>, we remain committed to the same high-quality driver education that the community has relied on for decades.</p>
+        
+            <p>As the Keeters transition into retirement, rest assured that the expert instructors who have trained thousands of students will continue their work at <a href="https://www.baycountrydrivingschool.com">Bay Country Driving School</a>. Our team brings over 100 years of combined experience in behind-the-wheel and classroom instruction, ensuring a seamless transition for new and returning students.</p>
+        
+            <p>Originally established in Trappe, Bayside Driving School expanded its reach to multiple counties over the years. While the name has changed, <a href="https://www.baycountrydrivingschool.com">Bay Country Driving School</a> continues to focus on providing the best driver education in Talbot County, upholding the family-owned values that made Bayside Driving School a community staple.</p>
+        
+            <p>We are proud to offer the same trusted training, including access to our private driving range, where students can practice essential skills like parallel parking and two-point-reverse turns in a controlled environment. Our seasoned instructors at <a href="https://www.baycountrydrivingschool.com">Bay Country Driving School</a> are dedicated to fostering a safe, supportive learning atmosphere for all students.</p>
+        
+            <p>Thank you for choosing <a href="https://www.baycountrydrivingschool.com">Bay Country Driving School</a>. We look forward to continuing the tradition of excellence in driver education. Buckle up, stay safe, and let’s hit the road!</p>
+        </div>
+        <div class="box"></div>
 
-<h1>Bayside Driving School has been purchased by Bay Country Driving School</h1>
-
-<h2>Honoring the Legacy, Continuing the Tradition</h2>
-
-<p>At Bay Country Driving School, we are proud to carry forward the exceptional legacy of Bayside Driving School, a name that has been synonymous with quality driver education in Talbot County since 1982. Founded by Jack & Beth Morris, and later nurtured by Robin and Zoe Keeter, Bayside Driving School built a reputation for excellence, shaping safe and confident drivers for generations.</p>
-
-<p>As the Keeters step into retirement, we want to assure our students, families, and community that Bay Country Driving School remains committed to the same high standards of education and training that you have come to expect. The same dedicated instructors who have helped thousands of students earn their licenses will continue teaching with us, ensuring a seamless transition and continued success.
-<div>&nbsp;</div>
-</div>
-
-<h2>2024 marks our 42<sup>nd</sup>&nbsp; year in business&nbsp;</h2>
-<h5>
-<div style="text-align: center">
-<h5>
-<div style="text-align: center">
-<div style="text-align: center">
-<div>&nbsp;</div>
-<div>&nbsp;</div>
-</div>
-</div>
-<div style="text-align: center">&nbsp;<strong><span style="font-size: small"><span style="line-height: 115%">Bayside Driving School</span></span></strong><span style="font-size: small"><span style="line-height: 115%"> was established in Trappe in 1982 by the husband and wife team, Jack &amp; Beth Morris, operating out of their home. As the years progressed and demand increased an office was established in Easton. Driver&rsquo;s Ed classes were extended to three other counties including Caroline, Queen Anne and Dorchester. The Morris family including their three daughters, Samantha, Zoe,and Megan have all helped by putting in their time toward the betterment of the company. In recent years the decision was made to focus on the county that we&nbsp; originally started in&nbsp; Talbot county&nbsp; We are still family owned and operated by Robin and Zoe Keeter. Bayside Driving School&rsquo;s driving instructors have all been trained and licensed through the MVA&rsquo;s approved licensing program. </span><br />
-</span></div>
-<div><span style="font-size: small"><br />
-</span></div>
-<div>
-<div><span style="font-size: small"><span style="line-height: 115%">We collectively have over 100 years of experience in Behind-the-wheel instruction as well as classroom instruction. Our personal private driving range offers students an opportunity to practice parallel parking and the two-point-reverse turn in a contained environment for optimal learning. We are confident that our seasoned instructors have the skills and experience to create a safe learning environment for our students. Bayside Driving School has been in business since 1982 and currently has several employees who have worked here for more than 20 years. We are pleased that you have chosen Bayside Driving School and appreciate your business. Buckle Up and Drive Safely!</span></span></div>
-<div>&nbsp;</div>
-</div>
-</h5>
-</div>
-</h5>
-<h1>&nbsp;</h1>
-<h5>
-<div>&nbsp;</div>
-</h5>
-<h1>&nbsp;</h1>
-<h5>
-<div>
-<div>&nbsp;</div>
-<div>&nbsp;</div>
-</div>
-</h5>
-</div>
-</td>
-</tr>
-</table>
-</div>
-</td>
-</tr>
-</table>
-<center>
-<div id="footer" align="center">
-<div class="footer_txt">Design, Hosting and Application Development by <a href="http://www.ddmg.net" target="_blank">Delmarva Digital</a> &copy; 2024</div>
-</div>
-</center>
+    </main>
+    <footer>&copy; DMX Designs 2025</footer>
 </body>
+
 </html>
