@@ -93,11 +93,7 @@
             text-align: center;
         }
 
-        @media only screen and (max-width: 600px) {
-                 #banner {
-                        background-image: none;
-                        }
-        }
+      
         .text-part-right {
             display: inline-block;
             margin: 0 0.5rem;
@@ -114,18 +110,37 @@
             text-decoration: none;
             display: inline-block;
         }
-       @media screen and (max-width: 600px) 
-       {
-        .container{
+
+        @media only screen and (max-width: 600px) {
+        .container {
             padding: 0;
             display: flex;
             flex-direction: column;
             flex-wrap: nowrap;
             align-items: center;
-            justify-items: center; /* Centers content within the grid cells */
+            justify-items: center; 
             text-align: center; 
-        } 
-       }
+        }
+        
+        #banner {
+                 background-image: none;
+                }
+        }
+
+        @media only screen and (max-width: 1200px) {
+        .container {
+            padding-top: 50px;
+            padding-left: 100px;
+            padding-right: 100px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-items: center; 
+            text-align: center; 
+        }
+        
+        
 
     </style>
 </head>
