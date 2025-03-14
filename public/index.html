@@ -69,14 +69,18 @@
         }
 
         .container {
-            padding: 100px;
-            display: grid;
-            grid-template-columns: 100px auto 100px;
-            grid-template-rows: auto;
+            /* padding: 100px; */
+            padding-left: 350px;
+            padding-right: 350px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            align-items: center;
             justify-items: center; /* Centers content within the grid cells */
             text-align: center;
             
         }
+
         p {
             padding: 0.5rem;
         }
@@ -110,7 +114,18 @@
             text-decoration: none;
             display: inline-block;
         }
-       
+       @media screen and (max-width: 600px) 
+       {
+        .container{
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-items: center; /* Centers content within the grid cells */
+            text-align: center; 
+        } 
+       }
 
     </style>
 </head>
